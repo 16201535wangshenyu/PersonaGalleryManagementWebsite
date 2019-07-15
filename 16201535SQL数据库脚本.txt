@@ -1,0 +1,17 @@
+ create table user(
+  ID int auto_increment primary key,
+  username char(48),
+  password char(48)
+);
+insert into user(1,'16201535','123');
+ create table FilteTable(
+ ID int auto_increment primary key,
+ Filename char(248),
+ FileClass char(248)
+ );
+create table user_file(
+    fileID int,
+    userName char(148),
+    primary key(fileID,userName)
+  )
+注意：演示视频中需要大量的数据需要插入数据库。请先把personal/Img文件中存在的图片全部删除后在进行操作！
