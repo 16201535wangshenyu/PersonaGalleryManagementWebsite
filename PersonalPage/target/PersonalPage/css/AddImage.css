@@ -1,0 +1,157 @@
+
+a{
+    text-decoration: none;
+}
+.sidebar {
+    float: left;
+    width: 20%;
+
+    border:1px solid black;
+
+}
+.main-nav {
+    background-color: #EEEEEE;
+    font-size: 1.4rem;
+    border:1px solid black;
+}
+
+.main-nav-ul {
+    text-align: center;
+    width: 86%;
+
+}
+.nav-item {
+    list-style: none;
+
+    margin:0px ;
+    postion:relative;
+    right: 20px;
+}
+.grid {
+    margin-left: 50px;
+    width:72%;
+    height:750px;
+    border:6px solid black;
+    float: left;
+    /*background: url('/images/bak.jpg') no-repeat;*/
+    background-size: cover;
+}
+
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.grid-item {
+    height:200px;
+    width:200px;
+    margin: 8px;
+    float: left;
+}
+.grid-item img{
+    height:200px;
+    width:200px;
+
+}
+.grid-item .delet{
+    width:100%;height: 20%;
+    text-align: center;
+    position: relative;bottom: 40px;
+    border:1px solid orangered;line-height: 40px;
+
+
+}
+.grid-item .delet a{
+    display:block;height: 100%;
+    width: 100%;
+    background-color: red;
+    opacity: 0.2;
+}
+
+.grid-item .delet a:hover{
+    background-color: red;
+    opacity:0.8;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 15px;
+    width: 80%;
+
+}
+
+.nav-item-link {
+    padding: 10px;
+    width: 100%;
+}
+
+.nav-item-link:focus { text-decoration: none; }
+
+.button,
+.button:focus {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.button:hover,
+.button.active {
+    background-color: #fff;
+    border: 1px solid #CC6733;
+    color: #CC6733;
+    text-decoration: none;
+}
+.msgIfoDiv{
+    background: #CC6733;
+    height:100px;
+}
+.welUser{
+    text-align: center;
+    line-height: 100px;
+    font-family: 微软雅黑;
+    font-size:20px
+}
+.form-div{
+    margin: 200px 300px;
+    height: 40%;width: 40%;
+}
+input[type="submit"]{
+    margin-left: 50px;
+}
+select{
+    height: 23px;
+    width: 162px
+}
+.msgSpan{
+    color: red;
+    margin-left: 80px
+}
+.msgSpanDiv{
+    width: 100%;
+    height:10%;
+}
+.labelUpPic{
+    height:100%;
+    line-height: 30px;
+}
+input[type="file"]{
+    display: none;
+}
+.uploadLabel{
+    display:block;line-height:24px;
+    text-align:center;float:right;
+    background-color: #CC6733;
+    margin-top:3px;
+    margin-right: 66px;
+    height: 80%;width: 15%;
+}
+.uploadFileDiv{
+    width: 100%;
+    height:10%;
+}
